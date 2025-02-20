@@ -1,6 +1,6 @@
 ![Image description](https://ocdn.eu/pulscms-transforms/1/VV5k9kuTURBXy84NzRkYmU0ZC02ZWEwLTRhYjItYWNhMy00NmU4OWNlZGQ0YTAuanBlZ5GTBc0DFs0Brt4AAqEwBqExAA)
 
-# TikTok Video Classification
+# TikTok Video Classification for Moderation Support
 
 ## Introduction
 
@@ -10,9 +10,15 @@ TikTok, a popular social media platform, faces a significant challenge in managi
 
 The **main objective** for undertaking this project is to build a predictive model that aims to classify videos into "claim" or "opinion" categories to help TikTok moderators prioritize user reports more efficiently.
 
+•	Developed a machine learning model to classify TikTok videos into "claim" or "opinion" categories to enhance content moderation.
+•	Analysed a dataset of 19,382 TikTok videos with 13 features, including video type, length, transcript, engagement metrics (likes, shares, downloads, comments).
+•	Implemented Random Forest, Gradient Boosting, AdaBoost, Logistic Regression, and SVM for classification, optimizing model performance.
+•	Improved moderation efficiency by prioritizing user reports based on content classification.
+
 ## Project Background
 
 The project is in its initial stages of claims classification, focusing on conducting extensive **Exploratory Data analysis (EDA)**.
+
 **Key objectives include:**
 1. Gathering descriptive statistics and understanding data distributions for various features.
 2. Examining relationships and factors that influence the target class (claim or opinion).
@@ -30,3 +36,5 @@ The **goal** is to further explore the dataset and create visualizations.
     *    Data cleaning
 *   **Part 3:** Build visualizations
 *   **Part 4:** Evaluate and share results
+
+
